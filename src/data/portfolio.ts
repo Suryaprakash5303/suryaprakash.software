@@ -23,10 +23,10 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/suryaprakashperumal5303/',
     github: 'https://github.com/Suryaprakash5303',
   },
-  resumePdf: `${import.meta.env.BASE_URL}assets/Surya_Prakash_Resume.pdf`,
+  resumePdf: './assets/Surya_Prakash_Resume.pdf',
   portrait: {
-    src: `${import.meta.env.BASE_URL}assets/portrait-720.webp`,
-    srcSet: `${import.meta.env.BASE_URL}assets/portrait-420.webp 420w, ${import.meta.env.BASE_URL}assets/portrait-720.webp 720w, ${import.meta.env.BASE_URL}assets/portrait-1100.webp 1100w`,
+    src: './assets/portrait-720.webp',
+    srcSet: './assets/portrait-420.webp 420w, ./assets/portrait-720.webp 720w, ./assets/portrait-1100.webp 1100w',
     alt: 'Portrait of Surya Prakash',
   },
   interests: ['Agentic AI', 'RAG Pipelines', 'Knowledge Graphs', 'Enterprise AI Automation'],
