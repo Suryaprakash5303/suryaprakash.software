@@ -30,7 +30,7 @@ export default function ResumeModal({ onClose }: { onClose: () => void }) {
       <div className="gutter flex h-16 shrink-0 items-center justify-between gap-3 pt-[env(safe-area-inset-top)]">
         <p className="truncate font-display text-2xl tracking-wide text-bone">The Full Story</p>
         <div className="flex items-center gap-2">
-          <a href={profile.resumePdf} download="Sushmita_Dasari_Resume.pdf" className="rounded-md bg-bone px-4 py-2 text-xs font-bold text-ink">
+          <a href={profile.resumePdf} download="Surya_Prakash_Resume.pdf" className="rounded-md bg-bone px-4 py-2 text-xs font-bold text-ink">
             ⤓ Download
           </a>
           <button type="button" onClick={onClose} aria-label="Close resume" data-cursor="close" className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-bone hover:bg-white/20">
@@ -52,7 +52,7 @@ export default function ResumeModal({ onClose }: { onClose: () => void }) {
             </a>
           </div>
         ) : (
-          <iframe title="Sushmita Dasari resume (PDF)" src={`${profile.resumePdf}#view=FitH`} className="h-full w-full rounded-xl bg-white" />
+          <iframe title="Surya Prakash resume (PDF)" src={`${profile.resumePdf}#view=FitH`} className="h-full w-full rounded-xl bg-white" />
         )}
       </motion.div>
     </motion.div>
